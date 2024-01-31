@@ -1,0 +1,16 @@
+{
+  "name": "Formulario de Dirección",
+  "short_name": "Formulario",
+  "description": "Una aplicación para completar formularios de dirección",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+      {
+          "src": "icono.jpg",
+          "sizes": "360x360",
+          "type": "image/png"
+      }
+  ]
+}
