@@ -3,7 +3,9 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
       caches.open('my-cache').then(function(cache) {
           return cache.addAll([
-              // Agrega aquí los recursos que deseas cachear
+           '/',
+                'index.html',
+                'js/forumulario.js', /
           ]);
       })
   );
